@@ -14,3 +14,6 @@
 2025-03-03T11:17:39.644+05:30  WARN 2420 --- [Log] [http-nio-8080-exec-1] c.example.log.Controller.LogController   : this is a warn log message
 2025-03-03T11:17:39.644+05:30 ERROR 2420 --- [Log] [http-nio-8080-exec-1] c.example.log.Controller.LogController   : this is a error log message
 2025-03-03T11:17:39.644+05:30 ERROR 2420 --- [Log] [http-nio-8080-exec-1] c.example.log.Controller.LogController   : Runtime exception :Hello...I'm a runtime exception
+2025-03-03T12:04:53.200+05:30  INFO 12852 --- [Log] [main] com.example.log.LogApplicationTests      : Starting LogApplicationTests using Java 21.0.5 with PID 12852 (started by USER in C:\Users\USER\IdeaProjects\Log)
+2025-03-03T12:04:53.202+05:30  INFO 12852 --- [Log] [main] com.example.log.LogApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T12:04:55.756+05:30  INFO 12852 --- [Log] [main] com.example.log.LogApplicationTests      : Started LogApplicationTests in 3.244 seconds (process running for 5.891)
