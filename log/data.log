@@ -1,0 +1,16 @@
+2025-03-03T11:17:25.802+05:30  INFO 2420 --- [Log] [main] com.example.log.LogApplication           : Starting LogApplication using Java 21.0.5 with PID 2420 (C:\Users\USER\IdeaProjects\Log\target\classes started by USER in C:\Users\USER\IdeaProjects\Log)
+2025-03-03T11:17:25.806+05:30  INFO 2420 --- [Log] [main] com.example.log.LogApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T11:17:27.142+05:30  INFO 2420 --- [Log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-03T11:17:27.162+05:30  INFO 2420 --- [Log] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T11:17:27.163+05:30  INFO 2420 --- [Log] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-03T11:17:27.241+05:30  INFO 2420 --- [Log] [main] o.a.c.c.C.[.[localhost].[/logger]        : Initializing Spring embedded WebApplicationContext
+2025-03-03T11:17:27.242+05:30  INFO 2420 --- [Log] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1376 ms
+2025-03-03T11:17:27.842+05:30  INFO 2420 --- [Log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/logger'
+2025-03-03T11:17:27.854+05:30  INFO 2420 --- [Log] [main] com.example.log.LogApplication           : Started LogApplication in 2.725 seconds (process running for 3.549)
+2025-03-03T11:17:39.593+05:30  INFO 2420 --- [Log] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/logger]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03T11:17:39.594+05:30  INFO 2420 --- [Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-03T11:17:39.596+05:30  INFO 2420 --- [Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-03T11:17:39.643+05:30  INFO 2420 --- [Log] [http-nio-8080-exec-1] c.example.log.Controller.LogController   : this is a info log message
+2025-03-03T11:17:39.644+05:30  WARN 2420 --- [Log] [http-nio-8080-exec-1] c.example.log.Controller.LogController   : this is a warn log message
+2025-03-03T11:17:39.644+05:30 ERROR 2420 --- [Log] [http-nio-8080-exec-1] c.example.log.Controller.LogController   : this is a error log message
+2025-03-03T11:17:39.644+05:30 ERROR 2420 --- [Log] [http-nio-8080-exec-1] c.example.log.Controller.LogController   : Runtime exception :Hello...I'm a runtime exception
