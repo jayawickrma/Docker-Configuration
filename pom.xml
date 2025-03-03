@@ -49,6 +49,8 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+<!--        final name eka dammama jar file ek me namin hadenne-->
+        <finalName>hello</finalName>
     </build>
 
 </project>
