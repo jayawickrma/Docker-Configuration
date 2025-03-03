@@ -1,0 +1,47 @@
+2025-03-03T10:36:36.172+05:30  INFO 16368 --- [Log] [main] com.example.log.LogApplicationTests      : Starting LogApplicationTests using Java 21.0.5 with PID 16368 (started by USER in C:\Users\USER\IdeaProjects\Log)
+2025-03-03T10:36:36.175+05:30  INFO 16368 --- [Log] [main] com.example.log.LogApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T10:36:38.368+05:30  INFO 16368 --- [Log] [main] com.example.log.LogApplicationTests      : Started LogApplicationTests in 2.922 seconds (process running for 6.022)
+2025-03-03T11:11:41.740+05:30  INFO 7264 --- [Log] [main] com.example.log.LogApplication           : Starting LogApplication using Java 21.0.5 with PID 7264 (C:\Users\USER\IdeaProjects\Log\target\classes started by USER in C:\Users\USER\IdeaProjects\Log)
+2025-03-03T11:11:41.743+05:30  INFO 7264 --- [Log] [main] com.example.log.LogApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T11:11:43.016+05:30  INFO 7264 --- [Log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-03T11:11:43.037+05:30  INFO 7264 --- [Log] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T11:11:43.039+05:30  INFO 7264 --- [Log] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-03T11:11:43.111+05:30  INFO 7264 --- [Log] [main] o.a.c.c.C.[.[localhost].[/logger]        : Initializing Spring embedded WebApplicationContext
+2025-03-03T11:11:43.112+05:30  INFO 7264 --- [Log] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1308 ms
+2025-03-03T11:11:43.685+05:30  INFO 7264 --- [Log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/logger'
+2025-03-03T11:11:43.697+05:30  INFO 7264 --- [Log] [main] com.example.log.LogApplication           : Started LogApplication in 2.64 seconds (process running for 3.649)
+2025-03-03T11:11:55.553+05:30  INFO 7264 --- [Log] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/logger]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03T11:11:55.554+05:30  INFO 7264 --- [Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-03T11:11:55.555+05:30  INFO 7264 --- [Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-03T11:13:40.536+05:30  INFO 7264 --- [Log] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-03T11:13:40.548+05:30  INFO 7264 --- [Log] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-03T11:13:48.537+05:30  INFO 6168 --- [Log] [main] com.example.log.LogApplication           : Starting LogApplication using Java 21.0.5 with PID 6168 (C:\Users\USER\IdeaProjects\Log\target\classes started by USER in C:\Users\USER\IdeaProjects\Log)
+2025-03-03T11:13:48.541+05:30  INFO 6168 --- [Log] [main] com.example.log.LogApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T11:13:49.930+05:30  INFO 6168 --- [Log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-03T11:13:49.961+05:30  INFO 6168 --- [Log] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T11:13:49.962+05:30  INFO 6168 --- [Log] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-03T11:13:50.034+05:30  INFO 6168 --- [Log] [main] o.a.c.c.C.[.[localhost].[/logger]        : Initializing Spring embedded WebApplicationContext
+2025-03-03T11:13:50.035+05:30  INFO 6168 --- [Log] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1424 ms
+2025-03-03T11:13:50.647+05:30  INFO 6168 --- [Log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/logger'
+2025-03-03T11:13:50.660+05:30  INFO 6168 --- [Log] [main] com.example.log.LogApplication           : Started LogApplication in 2.8 seconds (process running for 3.693)
+2025-03-03T11:14:01.941+05:30  INFO 6168 --- [Log] [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/logger]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03T11:14:01.942+05:30  INFO 6168 --- [Log] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-03T11:14:01.944+05:30  INFO 6168 --- [Log] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-03T11:15:23.382+05:30  INFO 6168 --- [Log] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-03T11:15:23.398+05:30  INFO 6168 --- [Log] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-03T11:15:27.884+05:30  INFO 17892 --- [Log] [main] com.example.log.LogApplication           : Starting LogApplication using Java 21.0.5 with PID 17892 (C:\Users\USER\IdeaProjects\Log\target\classes started by USER in C:\Users\USER\IdeaProjects\Log)
+2025-03-03T11:15:27.888+05:30  INFO 17892 --- [Log] [main] com.example.log.LogApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T11:15:29.216+05:30  INFO 17892 --- [Log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-03T11:15:29.241+05:30  INFO 17892 --- [Log] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T11:15:29.242+05:30  INFO 17892 --- [Log] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-03T11:15:29.307+05:30  INFO 17892 --- [Log] [main] o.a.c.c.C.[.[localhost].[/logger]        : Initializing Spring embedded WebApplicationContext
+2025-03-03T11:15:29.308+05:30  INFO 17892 --- [Log] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1354 ms
+2025-03-03T11:15:29.877+05:30  INFO 17892 --- [Log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/logger'
+2025-03-03T11:15:29.890+05:30  INFO 17892 --- [Log] [main] com.example.log.LogApplication           : Started LogApplication in 2.732 seconds (process running for 3.604)
+2025-03-03T11:15:34.353+05:30  INFO 17892 --- [Log] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/logger]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03T11:15:34.354+05:30  INFO 17892 --- [Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-03T11:15:34.355+05:30  INFO 17892 --- [Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-03T11:15:34.403+05:30  INFO 17892 --- [Log] [http-nio-8080-exec-1] com.example.log.LogController            : this is a info log message
+2025-03-03T11:15:34.404+05:30  WARN 17892 --- [Log] [http-nio-8080-exec-1] com.example.log.LogController            : this is a warn log message
+2025-03-03T11:15:34.404+05:30 ERROR 17892 --- [Log] [http-nio-8080-exec-1] com.example.log.LogController            : this is a error log message
+2025-03-03T11:15:34.404+05:30 ERROR 17892 --- [Log] [http-nio-8080-exec-1] com.example.log.LogController            : Runtime exception :Hello...I'm a runtime exception
