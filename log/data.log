@@ -20,3 +20,25 @@
 2025-03-03T12:15:15.070+05:30  INFO 18084 --- [Log] [main] com.example.log.LogApplicationTests      : Starting LogApplicationTests using Java 21.0.5 with PID 18084 (started by USER in C:\Users\USER\IdeaProjects\Log)
 2025-03-03T12:15:15.073+05:30  INFO 18084 --- [Log] [main] com.example.log.LogApplicationTests      : No active profile set, falling back to 1 default profile: "default"
 2025-03-03T12:15:17.703+05:30  INFO 18084 --- [Log] [main] com.example.log.LogApplicationTests      : Started LogApplicationTests in 3.288 seconds (process running for 5.605)
+2025-03-03T14:11:13.226+05:30  INFO 21700 --- [Log] [main] com.example.log.LogApplication           : Starting LogApplication using Java 21.0.5 with PID 21700 (C:\Users\USER\IdeaProjects\Log\target\classes started by USER in C:\Users\USER\IdeaProjects\Log)
+2025-03-03T14:11:13.230+05:30  INFO 21700 --- [Log] [main] com.example.log.LogApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T14:11:14.910+05:30  INFO 21700 --- [Log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-03T14:11:14.940+05:30  INFO 21700 --- [Log] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T14:11:14.941+05:30  INFO 21700 --- [Log] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-03T14:11:15.026+05:30  INFO 21700 --- [Log] [main] o.a.c.c.C.[.[localhost].[/logger]        : Initializing Spring embedded WebApplicationContext
+2025-03-03T14:11:15.027+05:30  INFO 21700 --- [Log] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1720 ms
+2025-03-03T14:11:15.716+05:30  INFO 21700 --- [Log] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/logger'
+2025-03-03T14:11:15.729+05:30  INFO 21700 --- [Log] [main] com.example.log.LogApplication           : Started LogApplication in 3.312 seconds (process running for 4.541)
+2025-03-03T14:11:21.801+05:30  INFO 21700 --- [Log] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/logger]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03T14:11:21.802+05:30  INFO 21700 --- [Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-03T14:11:21.804+05:30  INFO 21700 --- [Log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-03T14:11:21.867+05:30  INFO 21700 --- [Log] [http-nio-8080-exec-1] c.example.log.Controller.LogController   : this is a info log message
+2025-03-03T14:11:21.867+05:30  WARN 21700 --- [Log] [http-nio-8080-exec-1] c.example.log.Controller.LogController   : this is a warn log message
+2025-03-03T14:11:21.867+05:30 ERROR 21700 --- [Log] [http-nio-8080-exec-1] c.example.log.Controller.LogController   : this is a error log message
+2025-03-03T14:11:21.868+05:30 ERROR 21700 --- [Log] [http-nio-8080-exec-1] c.example.log.Controller.LogController   : Runtime exception :Hello...I'm a runtime exception
+2025-03-03T14:13:11.052+05:30  INFO 21700 --- [Log] [http-nio-8080-exec-5] c.example.log.Controller.LogController   : this is a info log message
+2025-03-03T14:13:11.053+05:30  WARN 21700 --- [Log] [http-nio-8080-exec-5] c.example.log.Controller.LogController   : this is a warn log message
+2025-03-03T14:13:11.053+05:30 ERROR 21700 --- [Log] [http-nio-8080-exec-5] c.example.log.Controller.LogController   : this is a error log message
+2025-03-03T14:13:11.053+05:30 ERROR 21700 --- [Log] [http-nio-8080-exec-5] c.example.log.Controller.LogController   : Runtime exception :Hello...I'm a runtime exception
+2025-03-03T14:13:50.892+05:30  INFO 21700 --- [Log] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-03T14:13:50.903+05:30  INFO 21700 --- [Log] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

@@ -14,3 +14,6 @@ ENTRYPOINT ["java","-jar","app.jar"]
 
 #
 # docker run -d -p 8085:8080 log-2 meheme dala docker eke run karoth sadakalikawama run wenawa me application eka
+
+#to push to the docker hub
+#            docker login
